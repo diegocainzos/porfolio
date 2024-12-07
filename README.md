@@ -1,27 +1,14 @@
-# 👨🏻‍💻 Porfolio para programadores y desarrolladores
+# Welcome to My Portfolio! 🌍
 
-<div align="center">
-<a href="https://porfolio.dev/">
-<img src="./public/porfolio.webp">
-</a>
-<p></p>
-</div>
+Hello! I'm Diego, a passionate explorer of technology, philosophy, and adventure. Based in Coruña, I bring a unique blend of skills and interests to everything I do. Here's a little about me:  
 
-<div align="center">
+### 🌊 Surfing, Sports, and Skateboarding  
+I thrive on movement and challenge. Whether I'm riding waves, exploring new sports, or learning skateboarding, I embrace an active and adventurous lifestyle.  
 
-![Astro Badge](https://img.shields.io/badge/Astro-FF3E00?logo=astro&logoColor=fff&style=flat)
-![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/porfolio.dev)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/porfolio.dev)
-![GitHub forks](https://img.shields.io/github/forks/midudev/porfolio.dev)
-![GitHub issues](https://img.shields.io/github/issues/midudev/porfolio.dev)
+### 💻 Tech Enthusiast and AI Learner  
+With a background in computer science, I have a keen interest in artificial intelligence and its transformative potential. My portfolio highlights projects that blend creativity and cutting-edge tech.  
 
-</div>
+### ✈️ Traveler and Adventurer
+I love exploring new cultures and ideas. My goal is to move to the U.S. to broaden my horizons while continuing to grow personally and professionally.  
 
-## 🫂 Contribuidores
-
-<a href="https://github.com/midudev/porfolio.dev/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" />
-</a>
-
-<p></p>
+Feel free to explore my projects, and don’t hesitate to reach out! 🚀

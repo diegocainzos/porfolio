@@ -1,0 +1,35 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EDUCATION = [
+  {
+    date: "September 2020 - July 2024",
+    title: "Computer Science",
+    company: "University of A Coruña",
+    link: "https://www.udc.gal",
+    description: "I have completed my Bachelor's degree in Computer Science, specializing in Software Engineering. I have developed a wide range of skills, including programming, software development, and data analysis, and have worked on several projects in different areas, such as web development, data analysis, and software engineering.",
+  },
+  {company: "University of Valencia",
+    date: "September 2023 - July 2024",
+    title: "Sicue Exchange Program",
+    link: "https://www.uv.es",
+    description: "I have studied at the University of Valencia for one academic year as part of the Sicue Exchange Program. I have taken courses in Computer Science and Software Engineering, focusing on topics such as data analysis, software development, and artificial intelligence.",
+  },
+  {
+    company: "West University of Timișoara",
+    date: "September 2022 - January 2023",
+    title: "Erasmus+ Exchange Program",
+    link: "https://www.uvt.ro",
+    description: "I have studied at the West University of Timișoara for one semester as part of the Erasmus+ Exchange Program. I have taken courses in Computer Science and Software Engineering, focusing on topics such as web development, software engineering, and data analysis.",
+  }
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EDUCATION.map((experience) => (
+      <li class="">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
