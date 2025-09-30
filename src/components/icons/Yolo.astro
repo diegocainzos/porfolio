@@ -1,0 +1,36 @@
+<svg
+  {...Astro.props}
+  xmlns="http://www.w3.org/2000/svg"
+  width="256"
+  height="256"
+  preserveAspectRatio="xMidYMid"
+  viewBox="0 0 256 256"
+>
+  <defs>
+    <linearGradient id="yoloGradient1" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F61" />
+      <stop offset="100%" stop-color="#FF3B2F" />
+    </linearGradient>
+    <linearGradient id="yoloGradient2" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0F0F0" />
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <!-- Fondo circular -->
+    <circle cx="128" cy="128" r="128" fill="url(#yoloGradient1)" />
+    <!-- Texto "YOLO" -->
+    <text
+      x="50%"
+      y="50%"
+      font-family="Arial, sans-serif"
+      font-size="64"
+      font-weight="bold"
+      fill="url(#yoloGradient2)"
+      text-anchor="middle"
+      dominant-baseline="middle"
+    >
+      YOLO
+    </text>
+  </g>
+</svg>
