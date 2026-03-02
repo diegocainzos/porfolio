@@ -9,19 +9,27 @@ import LinkButton from "./LinkButton.astro"
 
 const PROJECTS = [
     {
+    title: "SRE Auto-Remediation Agent",
+    description:
+      "A proof of concept AI Agent designed to automate infrastructure incident resolution. Built with LangGraph, it listens to alerts via webhooks, retrieves technical manuals using advanced RAG (Multi-Query Retrieval), and synthesizes solutions for ITSM tools.",
+    link: "https://diegocainzosreagent.streamlit.app/",
+    github: "https://github.com/diegocainzos/AgenteSRE", 
+    image: "/projects/sre.png", 
+    },
+    {
     title: "The Agora",
     description:
       "A multi-agent philosophical debate platform powered by LangGraph. It orchestrates autonomous LLM personas (e.g., Nietzsche, Camus) to engage in complex discussions, managing state and conversation flow through a reactive ChainLit interface.",
     link: "https://theagora.onrender.com",
-    github: "https://github.com/diegocainzos/TheAgora", // Asegúrate de que el nombre del repo sea correcto
+    github: "https://github.com/diegocainzos/TheAgora", 
     image: "/projects/agora.png", 
     },
     {
     title: "Nomadex",
     description:
       "A Django-based travel chatbot that can answer questions directly or call a hotel search tool (Google Hotels via SerpAPI) and synthesize a compact Markdown reply for users.",
-    link: "https://kodigoviajero.onrender.com", // Add your project link here
-    github: "https://github.com/diegocainzos/Nomadex", // Add your GitHub link here
+    link: "https://kodigoviajero.onrender.com", 
+    github: "https://github.com/diegocainzos/Nomadex", 
     image: "/projects/nomadex.png", // Add your image path here
   },
   {
