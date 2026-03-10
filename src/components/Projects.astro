@@ -8,53 +8,61 @@ import LinkButton from "./LinkButton.astro"
 
 
 const PROJECTS = [
-    {
-    title: "SRE Auto-Remediation Agent",
-    description:
-      "A proof of concept AI Agent designed to automate infrastructure incident resolution. Built with LangGraph, it listens to alerts via webhooks, retrieves technical manuals using advanced RAG (Multi-Query Retrieval), and synthesizes solutions for ITSM tools.",
-    link: "https://diegocainzosreagent.streamlit.app/",
-    github: "https://github.com/diegocainzos/AgenteSRE", 
-    image: "/projects/sre.png", 
-    },
-    {
+  {
     title: "The Agora",
     description:
       "A multi-agent philosophical debate platform powered by LangGraph. It orchestrates autonomous LLM personas (e.g., Nietzsche, Camus) to engage in complex discussions, managing state and conversation flow through a reactive ChainLit interface.",
     link: "https://theagora.onrender.com",
-    github: "https://github.com/diegocainzos/TheAgora", 
-    image: "/projects/agora.png", 
-    },
-    {
+    github: "https://github.com/diegocainzos/TheAgora",
+    image: "/projects/agora.jpg",
+  },
+  {
+    title: "El Sesgo del Fútbol",
+    description:
+      "Automated sentiment analysis pipeline for Spanish sports press. Scrapes Marca.com RSS feeds, classifies sentiment with a Spanish BERT model (robertuito), stores results in PostgreSQL, and renders an interactive Streamlit dashboard — revealing how the media really talks about LaLiga players.",
+    link: "https://elsesgodelfutbol.diegocainzos.cv",
+    github: "https://github.com/diegocainzos/elsesgodelfutbol",
+    image: "/projects/elsesgodelfutbol.png",
+  },
+  {
     title: "Nomadex",
     description:
       "A Django-based travel chatbot that can answer questions directly or call a hotel search tool (Google Hotels via SerpAPI) and synthesize a compact Markdown reply for users.",
-    link: "https://kodigoviajero.onrender.com", 
-    github: "https://github.com/diegocainzos/Nomadex", 
-    image: "/projects/nomadex.png", // Add your image path here
+    link: "https://kodigoviajero.onrender.com",
+    github: "https://github.com/diegocainzos/Nomadex",
+    image: "/projects/nomadex.png",
   },
   {
     title: "Music Genre Classifier",
     description:
       "Classifies the genre of any song within 10 genres with 90% accuracy. Presented as bachelor's thesis. Utilized audio processing techniques and mel spectrograms.",
-    link: "", // Add your project link here
-    github: "https://github.com/diegocainzos/music-genre-classification-tfg", // Add your GitHub link here
-    image: "/projects/mgc.png", // Add your image path here
+    link: "",
+    github: "https://github.com/diegocainzos/music-genre-classification-tfg",
+    image: "/projects/mgc.png",
   },
   {
     title: "Hiragana & Katakana Quiz App",
     description:
       "A single-page application (SPA) designed for learning and practicing Japanese Hiragana and Katakana characters.",
-    link: "https://japanese-learning-six.vercel.app", // Add your project link here
-    github: "https://github.com/diegocainzos/kana-kun-quiz", // Add your GitHub link here
-    image: "/projects/kana.png", // Add your image path here
+    link: "https://japanese-learning-six.vercel.app",
+    github: "https://github.com/diegocainzos/kana-kun-quiz",
+    image: "/projects/kana.png",
   },
   {
     title: "GrandSlamVision",
     description:
       "A real-time tennis ball and player detection system using YOLO for sports analytics, automated refereeing, and performance analysis. Features include ball speed calculation, player tracking, and keypoint detection.",
-    link: "", // Add your project link here
-    github: "https://github.com/diegocainzos/GrandSlamVision", // Add your GitHub link here
-    image: "/projects/gsm.png", // Add your image path here
+    link: "",
+    github: "https://github.com/diegocainzos/GrandSlamVision",
+    image: "/projects/gsm.png",
+  },
+  {
+    title: "SRE Auto-Remediation Agent",
+    description:
+      "A proof of concept AI Agent designed to automate infrastructure incident resolution. Built with LangGraph, it listens to alerts via webhooks, retrieves technical manuals using advanced RAG (Multi-Query Retrieval), and synthesizes solutions for ITSM tools.",
+    link: "https://diegocainzosreagent.streamlit.app/",
+    github: "https://github.com/diegocainzos/AgenteSRE",
+    image: "/projects/sre.png",
   },
 ];
 ---
@@ -65,7 +73,7 @@ const PROJECTS = [
     <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full md:w-1/2">
     <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+      <img alt={title} class="object-cover object-center w-full aspect-video transition duration-500 md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
     </div>
   </div>
 
