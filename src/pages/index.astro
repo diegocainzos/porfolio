@@ -20,50 +20,49 @@ import Skills from "@/components/Skills.astro"
 >
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
-      <Hero>
-      </slot>
-    </Hero>
+      <Hero />
     </SectionContainer>
+
     <div class="space-y-24">
-    <SectionContainer id="proyectos">
-      <TitleSection>
-        <CodeIcon class="size-8" />
-        Projects
-      </TitleSection>
-      <Projects />
-    </SectionContainer>
+      <SectionContainer id="proyectos">
+        <TitleSection>
+          <CodeIcon class="size-8" />
+          Projects
+        </TitleSection>
+        <Projects />
+      </SectionContainer>
 
-    <SectionContainer id="estudios">
-      <TitleSection>
-        <Briefcase class="size-8" />
-        Education
-      </TitleSection>
-      <Education />
-    </SectionContainer>
+      <SectionContainer id="estudios">
+        <TitleSection>
+          <Briefcase class="size-8" />
+          Education
+        </TitleSection>
+        <Education />
+      </SectionContainer>
 
-    <SectionContainer id="experiencia">
-      <TitleSection>
-        <Briefcase class="size-8" />
-        Working Experience
-      </TitleSection>
-      <Experience />
-    </SectionContainer>
+      <SectionContainer id="experiencia">
+        <TitleSection>
+          <Briefcase class="size-8" />
+          Working Experience
+        </TitleSection>
+        <Experience />
+      </SectionContainer>
 
-    <SectionContainer id="skills">
-      <TitleSection>
-        <CodeIcon class="size-8" />
-        Skills
-      </TitleSection>
-      <Skills />
-    </SectionContainer>
+      <SectionContainer id="skills">
+        <TitleSection>
+          <CodeIcon class="size-8" />
+          Skills
+        </TitleSection>
+        <Skills />
+      </SectionContainer>
 
-    <SectionContainer id="sobre-mi">
-      <TitleSection>
-        <ProfileCheck class="size-8" />
-        About me
-      </TitleSection>
-      <AboutMe />
-    </SectionContainer>
-  </div>
+      <SectionContainer id="sobre-mi">
+        <TitleSection>
+          <ProfileCheck class="size-8" />
+          About me
+        </TitleSection>
+        <AboutMe />
+      </SectionContainer>
+    </div>
   </main>
 </Layout>

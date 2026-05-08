@@ -1,37 +1,13 @@
 ---
+import experience from "@/data/experience.json"
 import ExperienceItem from "./ExperienceItem.astro"
-const EXPERIENCE = [
-  {
-    date: "February 2025 - July 2025",
-    title: "System Administrator",
-    company: "WakkeIt",
-    description:
-      "Executed virtual machine migrations across multiple environments for Banco Santander UK, leveraging VMware HCX for seamless migration processes. Developed automation scripts using Bash, PowerShell, and Python to optimize workflows, and performed data analysis and reporting with Excel. ",
-    link: "https://wakkeit.com",
-  },
-  {
-    date: "October 2023 - June 2024",
-    title: "Software Engineer",
-    company: "INTRAS",
-    description:
-      "I led the analysis and optimization of Valencia’s public bus network, utilizing advanced tools such as the OpenStreetMaps API, Python, and data analysis libraries like Pandas, GeoPandas, and Matplotlib. My work resulted in proposals to adjust two bus routes, backed by precise data and visualizations presented in Power BI, which I delivered to the project lead for implementation.",
-    link: "https://www.uv.es/uvweb/instituto-universitario-investigacion-transito-seguridad-vial-INTRAS/es/instituto-universitario-investigacion-transito-seguridad-vial-1285892783720.html",
-  },
-  {
-    date: "February 2022 - June 2022",
-    title: "Full Stack Developer",
-    company: "ClickIT Smart Technologies",
-    description:
-      "First work experience through a paid internship under the Erasmus program. Developed an educational web application within an international team using React.js and PHP, integrating MySQL, RESTful APIs, and version control with Git. Contributed to testing processes using Jest and PHPUnit.",
-  } 
-]
 ---
 
-<ol class="relative mt-16">
+<ol class="relative mt-16" aria-label="Working experience">
   {
-    EXPERIENCE.map((experience) => (
-      <li class="">
-        <ExperienceItem {...experience} />
+    experience.map((exp, i) => (
+      <li class="anim-fade-in" style={`animation-delay: ${i * 150}ms`}>
+        <ExperienceItem {...exp} />
       </li>
     ))
   }
