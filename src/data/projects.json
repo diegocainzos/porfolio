@@ -40,12 +40,5 @@
     "link": "",
     "github": "https://github.com/diegocainzos/GrandSlamVision",
     "image": "/projects/gsm.png"
-  },
-  {
-    "title": "SRE Auto-Remediation Agent",
-    "description": "A proof of concept AI Agent designed to automate infrastructure incident resolution. Built with LangGraph, it listens to alerts via webhooks, retrieves technical manuals using advanced RAG (Multi-Query Retrieval), and synthesizes solutions for ITSM tools.",
-    "link": "https://diegocainzosreagent.streamlit.app/",
-    "github": "https://github.com/diegocainzos/AgenteSRE",
-    "image": "/projects/sre.png"
   }
 ]

@@ -1,11 +1,17 @@
 [
   {
+    "date": "April 2026 - Present",
+    "title": "AI Engineer",
+    "company": "Navertia",
+    "description": "Developing an agent orchestration project for intelligent process automation using LangGraph and the OpenAI Agent SDK. Designing multi-agent workflows, integrating tools through APIs, and defining production-oriented architectures for maintainable, observable, and scalable LLM-based systems.",
+    "current": true
+  },
+  {
     "date": "February 2025 - July 2025",
     "title": "System Administrator",
     "company": "WakkeIt",
     "description": "Executed virtual machine migrations across multiple environments for Banco Santander UK, leveraging VMware HCX for seamless migration processes. Developed automation scripts using Bash, PowerShell, and Python to optimize workflows, and performed data analysis and reporting with Excel.",
-    "link": "https://wakkeit.com",
-    "current": true
+    "link": "https://wakkeit.com"
   },
   {
     "date": "October 2023 - June 2024",
