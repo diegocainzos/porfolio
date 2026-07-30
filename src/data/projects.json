@@ -14,31 +14,10 @@
     "image": "/projects/elsesgodelfutbol.png"
   },
   {
-    "title": "Nomadex",
-    "description": "A Django-based travel chatbot that can answer questions directly or call a hotel search tool (Google Hotels via SerpAPI) and synthesize a compact Markdown reply for users.",
-    "link": "https://nomadex.diegocainzos.cv",
-    "github": "https://github.com/diegocainzos/Nomadex",
-    "image": "/projects/nomadex.jpg"
-  },
-  {
     "title": "Music Genre Classifier",
     "description": "Classifies the genre of any song within 10 genres with 90% accuracy. Presented as bachelor's thesis. Utilized audio processing techniques and mel spectrograms.",
     "link": "",
     "github": "https://github.com/diegocainzos/music-genre-classification-tfg",
     "image": "/projects/mgc.png"
-  },
-  {
-    "title": "Hiragana & Katakana Quiz App",
-    "description": "A single-page application (SPA) designed for learning and practicing Japanese Hiragana and Katakana characters.",
-    "link": "https://aprendejapones.diegocainzos.cv",
-    "github": "https://github.com/diegocainzos/kana-kun-quiz",
-    "image": "/projects/kana.png"
-  },
-  {
-    "title": "GrandSlamVision",
-    "description": "A real-time tennis ball and player detection system using YOLO for sports analytics, automated refereeing, and performance analysis. Features include ball speed calculation, player tracking, and keypoint detection.",
-    "link": "",
-    "github": "https://github.com/diegocainzos/GrandSlamVision",
-    "image": "/projects/gsm.png"
   }
 ]

@@ -3,7 +3,8 @@
     "date": "April 2026 - Present",
     "title": "AI Engineer",
     "company": "Navertia",
-    "description": "Developing an agent orchestration project for intelligent process automation using LangGraph and the OpenAI Agent SDK. Designing multi-agent workflows, integrating tools through APIs, and defining production-oriented architectures for maintainable, observable, and scalable LLM-based systems.",
+    "description": "Designing and delivering production AI systems, including a bidirectional customer-service voice agent built with Pipecat, Deepgram, ElevenLabs, and Gemini; local LLM infrastructure served with vLLM and Docker on NVIDIA GPUs; private RAG and Open WebUI environments; and an invoice-processing pipeline using locally served OCR for integration with Microsoft Dynamics 365 Business Central.",
+    "link": "https://www.navertia.com",
     "current": true
   },
   {
